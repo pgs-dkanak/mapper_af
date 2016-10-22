@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		051E4DB11DBBCD9E002B1DDC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22941DBBCBD0004F9BAC /* RxSwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		051E4DB31DBBCF5E002B1DDC /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22941DBBCBD0004F9BAC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		051E4DB41DBBCF76002B1DDC /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */; };
+		051E4DB51DBBCF78002B1DDC /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		051E4DB61DBBCF7C002B1DDC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22921DBBCB95004F9BAC /* Alamofire.framework */; };
+		051E4DB71DBBCF7E002B1DDC /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22921DBBCB95004F9BAC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0545F6131DBBBC7600B8C7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6121DBBBC7600B8C7A8 /* AppDelegate.swift */; };
 		0545F6151DBBBC7600B8C7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6141DBBBC7600B8C7A8 /* ViewController.swift */; };
 		0545F6181DBBBC7600B8C7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545F6161DBBBC7600B8C7A8 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		0545F61D1DBBBC7600B8C7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545F61B1DBBBC7600B8C7A8 /* LaunchScreen.storyboard */; };
 		0545F6281DBBBC7700B8C7A8 /* mapper_afTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6271DBBBC7700B8C7A8 /* mapper_afTests.swift */; };
 		0545F6331DBBBC7700B8C7A8 /* mapper_afUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6321DBBBC7700B8C7A8 /* mapper_afUITests.swift */; };
+		0545F6431DBBBF0C00B8C7A8 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 0545F6421DBBBF0C00B8C7A8 /* Cartfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +40,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		051E4DB21DBBCF55002B1DDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				051E4DB51DBBCF78002B1DDC /* ObjectMapper.framework in CopyFiles */,
+				051E4DB31DBBCF5E002B1DDC /* RxSwift.framework in CopyFiles */,
+				051E4DB71DBBCF7E002B1DDC /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		050A22921DBBCB95004F9BAC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		050A22941DBBCBD0004F9BAC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		0545F60F1DBBBC7600B8C7A8 /* mapper_af.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapper_af.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545F6121DBBBC7600B8C7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0545F6141DBBBC7600B8C7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,7 @@
 		0545F62E1DBBBC7700B8C7A8 /* mapper_afUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapper_afUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545F6321DBBBC7700B8C7A8 /* mapper_afUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapper_afUITests.swift; sourceTree = "<group>"; };
 		0545F6341DBBBC7700B8C7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0545F6421DBBBF0C00B8C7A8 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				051E4DB11DBBCD9E002B1DDC /* RxSwift.framework in Frameworks */,
+				051E4DB61DBBCF7C002B1DDC /* Alamofire.framework in Frameworks */,
+				051E4DB41DBBCF76002B1DDC /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +103,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050A22911DBBCB95004F9BAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */,
+				050A22941DBBCBD0004F9BAC /* RxSwift.framework */,
+				050A22921DBBCB95004F9BAC /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0545F6061DBBBC7600B8C7A8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				0545F6261DBBBC7700B8C7A8 /* mapper_afTests */,
 				0545F6311DBBBC7700B8C7A8 /* mapper_afUITests */,
 				0545F6101DBBBC7600B8C7A8 /* Products */,
+				0545F6421DBBBF0C00B8C7A8 /* Cartfile */,
+				050A22911DBBCB95004F9BAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +176,8 @@
 				0545F60B1DBBBC7600B8C7A8 /* Sources */,
 				0545F60C1DBBBC7600B8C7A8 /* Frameworks */,
 				0545F60D1DBBBC7600B8C7A8 /* Resources */,
+				05C4E15C1DBBC18B000DAB72 /* ShellScript */,
+				051E4DB21DBBCF55002B1DDC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -237,6 +280,7 @@
 			files = (
 				0545F61D1DBBBC7600B8C7A8 /* LaunchScreen.storyboard in Resources */,
 				0545F61A1DBBBC7600B8C7A8 /* Assets.xcassets in Resources */,
+				0545F6431DBBBF0C00B8C7A8 /* Cartfile in Resources */,
 				0545F6181DBBBC7600B8C7A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +300,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05C4E15C1DBBC18B000DAB72 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n\n#$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework\n#$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework\n#$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0545F60B1DBBBC7600B8C7A8 /* Sources */ = {
@@ -416,6 +476,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = mapper_af/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs.mapper-af";
@@ -429,6 +493,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 36CHZQXF4C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = mapper_af/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs.mapper-af";
@@ -505,7 +573,7 @@
 				0545F6361DBBBC7700B8C7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		0545F6371DBBBC7700B8C7A8 /* Build configuration list for PBXNativeTarget "mapper_af" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +582,7 @@
 				0545F6391DBBBC7700B8C7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		0545F63A1DBBBC7700B8C7A8 /* Build configuration list for PBXNativeTarget "mapper_afTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +591,7 @@
 				0545F63C1DBBBC7700B8C7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		0545F63D1DBBBC7700B8C7A8 /* Build configuration list for PBXNativeTarget "mapper_afUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +600,7 @@
 				0545F63F1DBBBC7700B8C7A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
