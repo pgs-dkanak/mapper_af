@@ -7,15 +7,30 @@
 //
 
 import UIKit
+import RxSwift
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
-
+    
+    let disposeBag = DisposeBag()
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let apiManager = APIManager()
+        apiManager.requestFlights2().subscribe(onNext: { (flights: [Flight]) in
+            print(flights)
+            }).addDisposableTo(disposeBag)
+        
+        DDLogInfo(logText: "")
+        
+        DDLogInfo(logText:"dsf ")
+        
         return true
     }
 

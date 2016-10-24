@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050BE08E1DBDE44B00DB5673 /* newfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE08D1DBDE44B00DB5673 /* newfile.m */; };
+		050BE0A01DBDE60700DB5673 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050BE09F1DBDE60700DB5673 /* CocoaLumberjack.swift */; };
+		050BE0BF1DBE67F200DB5673 /* CocoaLumberjack in Resources */ = {isa = PBXBuildFile; fileRef = 050BE0BE1DBE67F200DB5673 /* CocoaLumberjack */; };
+		050BE0E01DBE68A600DB5673 /* CLIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0C51DBE68A600DB5673 /* CLIColor.m */; };
+		050BE0E21DBE68A600DB5673 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0C91DBE68A600DB5673 /* DDAbstractDatabaseLogger.m */; };
+		050BE0E31DBE68A600DB5673 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0CB1DBE68A600DB5673 /* DDASLLogCapture.m */; };
+		050BE0E41DBE68A600DB5673 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0CD1DBE68A600DB5673 /* DDASLLogger.m */; };
+		050BE0E51DBE68A600DB5673 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0D01DBE68A600DB5673 /* DDFileLogger.m */; };
+		050BE0E61DBE68A600DB5673 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0D41DBE68A600DB5673 /* DDLog.m */; };
+		050BE0E71DBE68A600DB5673 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0D71DBE68A600DB5673 /* DDTTYLogger.m */; };
+		050BE0E81DBE68A600DB5673 /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0DA1DBE68A600DB5673 /* DDContextFilterLogFormatter.m */; };
+		050BE0E91DBE68A600DB5673 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0DC1DBE68A600DB5673 /* DDDispatchQueueLogFormatter.m */; };
+		050BE0EA1DBE68A600DB5673 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BE0DE1DBE68A600DB5673 /* DDMultiFormatter.m */; };
+		050BE0EB1DBE68A600DB5673 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 050BE0DF1DBE68A600DB5673 /* Info.plist */; };
 		051E4DB11DBBCD9E002B1DDC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22941DBBCBD0004F9BAC /* RxSwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		051E4DB31DBBCF5E002B1DDC /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22941DBBCBD0004F9BAC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		051E4DB41DBBCF76002B1DDC /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */; };
 		051E4DB51DBBCF78002B1DDC /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		051E4DB61DBBCF7C002B1DDC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A22921DBBCB95004F9BAC /* Alamofire.framework */; };
 		051E4DB71DBBCF7E002B1DDC /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 050A22921DBBCB95004F9BAC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		051E4DB91DBBE0B7002B1DDC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E4DB81DBBE0B7002B1DDC /* APIManager.swift */; };
+		051E4DBB1DBBE214002B1DDC /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051E4DBA1DBBE214002B1DDC /* Flight.swift */; };
 		0545F6131DBBBC7600B8C7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6121DBBBC7600B8C7A8 /* AppDelegate.swift */; };
 		0545F6151DBBBC7600B8C7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0545F6141DBBBC7600B8C7A8 /* ViewController.swift */; };
 		0545F6181DBBBC7600B8C7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0545F6161DBBBC7600B8C7A8 /* Main.storyboard */; };
@@ -59,6 +75,38 @@
 		050A22921DBBCB95004F9BAC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		050A22941DBBCBD0004F9BAC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		050A22961DBBCBD6004F9BAC /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		050BE08C1DBDE44B00DB5673 /* mapper_af-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mapper_af-Bridging-Header.h"; sourceTree = "<group>"; };
+		050BE08D1DBDE44B00DB5673 /* newfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newfile.m; sourceTree = "<group>"; };
+		050BE09F1DBDE60700DB5673 /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
+		050BE0BE1DBE67F200DB5673 /* CocoaLumberjack */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CocoaLumberjack; path = "/Users/pgs-dkanak/Documents/Examples/mapper_af/mapper_af/CocoaLumberjack"; sourceTree = "<absolute>"; };
+		050BE0C41DBE68A600DB5673 /* CLIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIColor.h; sourceTree = "<group>"; };
+		050BE0C51DBE68A600DB5673 /* CLIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIColor.m; sourceTree = "<group>"; };
+		050BE0C61DBE68A600DB5673 /* CocoaLumberjack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaLumberjack.h; sourceTree = "<group>"; };
+		050BE0C81DBE68A600DB5673 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		050BE0C91DBE68A600DB5673 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		050BE0CA1DBE68A600DB5673 /* DDASLLogCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogCapture.h; sourceTree = "<group>"; };
+		050BE0CB1DBE68A600DB5673 /* DDASLLogCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogCapture.m; sourceTree = "<group>"; };
+		050BE0CC1DBE68A600DB5673 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
+		050BE0CD1DBE68A600DB5673 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
+		050BE0CE1DBE68A600DB5673 /* DDAssertMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAssertMacros.h; sourceTree = "<group>"; };
+		050BE0CF1DBE68A600DB5673 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
+		050BE0D01DBE68A600DB5673 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
+		050BE0D11DBE68A600DB5673 /* DDLegacyMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLegacyMacros.h; sourceTree = "<group>"; };
+		050BE0D21DBE68A600DB5673 /* DDLog+LOGV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DDLog+LOGV.h"; sourceTree = "<group>"; };
+		050BE0D31DBE68A600DB5673 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
+		050BE0D41DBE68A600DB5673 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
+		050BE0D51DBE68A600DB5673 /* DDLogMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLogMacros.h; sourceTree = "<group>"; };
+		050BE0D61DBE68A600DB5673 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
+		050BE0D71DBE68A600DB5673 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
+		050BE0D91DBE68A600DB5673 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		050BE0DA1DBE68A600DB5673 /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		050BE0DB1DBE68A600DB5673 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		050BE0DC1DBE68A600DB5673 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		050BE0DD1DBE68A600DB5673 /* DDMultiFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMultiFormatter.h; sourceTree = "<group>"; };
+		050BE0DE1DBE68A600DB5673 /* DDMultiFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMultiFormatter.m; sourceTree = "<group>"; };
+		050BE0DF1DBE68A600DB5673 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051E4DB81DBBE0B7002B1DDC /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		051E4DBA1DBBE214002B1DDC /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		0545F60F1DBBBC7600B8C7A8 /* mapper_af.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapper_af.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0545F6121DBBBC7600B8C7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0545F6141DBBBC7600B8C7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +121,8 @@
 		0545F6321DBBBC7700B8C7A8 /* mapper_afUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapper_afUITests.swift; sourceTree = "<group>"; };
 		0545F6341DBBBC7700B8C7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0545F6421DBBBF0C00B8C7A8 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		056AAB271DBDD7CA00CC9846 /* CocoaLumberjackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaLumberjackTests.m; sourceTree = "<group>"; };
+		056AAB291DBDD7CA00CC9846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +163,62 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		050BE0C11DBE68A600DB5673 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				050BE0C31DBE68A600DB5673 /* CLI */,
+				050BE0C61DBE68A600DB5673 /* CocoaLumberjack.h */,
+				050BE0C81DBE68A600DB5673 /* DDAbstractDatabaseLogger.h */,
+				050BE0C91DBE68A600DB5673 /* DDAbstractDatabaseLogger.m */,
+				050BE0CA1DBE68A600DB5673 /* DDASLLogCapture.h */,
+				050BE0CB1DBE68A600DB5673 /* DDASLLogCapture.m */,
+				050BE0CC1DBE68A600DB5673 /* DDASLLogger.h */,
+				050BE0CD1DBE68A600DB5673 /* DDASLLogger.m */,
+				050BE0CE1DBE68A600DB5673 /* DDAssertMacros.h */,
+				050BE0CF1DBE68A600DB5673 /* DDFileLogger.h */,
+				050BE0D01DBE68A600DB5673 /* DDFileLogger.m */,
+				050BE0D11DBE68A600DB5673 /* DDLegacyMacros.h */,
+				050BE0D21DBE68A600DB5673 /* DDLog+LOGV.h */,
+				050BE0D31DBE68A600DB5673 /* DDLog.h */,
+				050BE0D41DBE68A600DB5673 /* DDLog.m */,
+				050BE0D51DBE68A600DB5673 /* DDLogMacros.h */,
+				050BE0D61DBE68A600DB5673 /* DDTTYLogger.h */,
+				050BE0D71DBE68A600DB5673 /* DDTTYLogger.m */,
+				050BE0D81DBE68A600DB5673 /* Extensions */,
+				050BE0DF1DBE68A600DB5673 /* Info.plist */,
+			);
+			path = CocoaLumberjack;
+			sourceTree = SOURCE_ROOT;
+		};
+		050BE0C31DBE68A600DB5673 /* CLI */ = {
+			isa = PBXGroup;
+			children = (
+				050BE0C41DBE68A600DB5673 /* CLIColor.h */,
+				050BE0C51DBE68A600DB5673 /* CLIColor.m */,
+			);
+			path = CLI;
+			sourceTree = "<group>";
+		};
+		050BE0D81DBE68A600DB5673 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				050BE0D91DBE68A600DB5673 /* DDContextFilterLogFormatter.h */,
+				050BE0DA1DBE68A600DB5673 /* DDContextFilterLogFormatter.m */,
+				050BE0DB1DBE68A600DB5673 /* DDDispatchQueueLogFormatter.h */,
+				050BE0DC1DBE68A600DB5673 /* DDDispatchQueueLogFormatter.m */,
+				050BE0DD1DBE68A600DB5673 /* DDMultiFormatter.h */,
+				050BE0DE1DBE68A600DB5673 /* DDMultiFormatter.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0545F6061DBBBC7600B8C7A8 = {
 			isa = PBXGroup;
 			children = (
 				0545F6111DBBBC7600B8C7A8 /* mapper_af */,
 				0545F6261DBBBC7700B8C7A8 /* mapper_afTests */,
 				0545F6311DBBBC7700B8C7A8 /* mapper_afUITests */,
+				056AAB261DBDD7CA00CC9846 /* CocoaLumberjackTests */,
 				0545F6101DBBBC7600B8C7A8 /* Products */,
 				0545F6421DBBBF0C00B8C7A8 /* Cartfile */,
 				050A22911DBBCB95004F9BAC /* Frameworks */,
@@ -138,12 +238,18 @@
 		0545F6111DBBBC7600B8C7A8 /* mapper_af */ = {
 			isa = PBXGroup;
 			children = (
+				050BE0C11DBE68A600DB5673 /* CocoaLumberjack */,
+				050BE09F1DBDE60700DB5673 /* CocoaLumberjack.swift */,
 				0545F6121DBBBC7600B8C7A8 /* AppDelegate.swift */,
+				050BE08D1DBDE44B00DB5673 /* newfile.m */,
 				0545F6141DBBBC7600B8C7A8 /* ViewController.swift */,
 				0545F6161DBBBC7600B8C7A8 /* Main.storyboard */,
 				0545F6191DBBBC7600B8C7A8 /* Assets.xcassets */,
 				0545F61B1DBBBC7600B8C7A8 /* LaunchScreen.storyboard */,
 				0545F61E1DBBBC7600B8C7A8 /* Info.plist */,
+				051E4DB81DBBE0B7002B1DDC /* APIManager.swift */,
+				051E4DBA1DBBE214002B1DDC /* Flight.swift */,
+				050BE08C1DBDE44B00DB5673 /* mapper_af-Bridging-Header.h */,
 			);
 			path = mapper_af;
 			sourceTree = "<group>";
@@ -164,6 +270,15 @@
 				0545F6341DBBBC7700B8C7A8 /* Info.plist */,
 			);
 			path = mapper_afUITests;
+			sourceTree = "<group>";
+		};
+		056AAB261DBDD7CA00CC9846 /* CocoaLumberjackTests */ = {
+			isa = PBXGroup;
+			children = (
+				056AAB271DBDD7CA00CC9846 /* CocoaLumberjackTests.m */,
+				056AAB291DBDD7CA00CC9846 /* Info.plist */,
+			);
+			path = CocoaLumberjackTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +352,7 @@
 					0545F60E1DBBBC7600B8C7A8 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 36CHZQXF4C;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					0545F6221DBBBC7700B8C7A8 = {
@@ -280,7 +396,9 @@
 			files = (
 				0545F61D1DBBBC7600B8C7A8 /* LaunchScreen.storyboard in Resources */,
 				0545F61A1DBBBC7600B8C7A8 /* Assets.xcassets in Resources */,
+				050BE0EB1DBE68A600DB5673 /* Info.plist in Resources */,
 				0545F6431DBBBF0C00B8C7A8 /* Cartfile in Resources */,
+				050BE0BF1DBE67F200DB5673 /* CocoaLumberjack in Resources */,
 				0545F6181DBBBC7600B8C7A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +440,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050BE0E81DBE68A600DB5673 /* DDContextFilterLogFormatter.m in Sources */,
+				050BE08E1DBDE44B00DB5673 /* newfile.m in Sources */,
+				050BE0E51DBE68A600DB5673 /* DDFileLogger.m in Sources */,
+				050BE0A01DBDE60700DB5673 /* CocoaLumberjack.swift in Sources */,
+				051E4DB91DBBE0B7002B1DDC /* APIManager.swift in Sources */,
+				050BE0E41DBE68A600DB5673 /* DDASLLogger.m in Sources */,
+				050BE0E71DBE68A600DB5673 /* DDTTYLogger.m in Sources */,
+				051E4DBB1DBBE214002B1DDC /* Flight.swift in Sources */,
+				050BE0E31DBE68A600DB5673 /* DDASLLogCapture.m in Sources */,
+				050BE0E61DBE68A600DB5673 /* DDLog.m in Sources */,
+				050BE0E01DBE68A600DB5673 /* CLIColor.m in Sources */,
+				050BE0E91DBE68A600DB5673 /* DDDispatchQueueLogFormatter.m in Sources */,
+				050BE0E21DBE68A600DB5673 /* DDAbstractDatabaseLogger.m in Sources */,
+				050BE0EA1DBE68A600DB5673 /* DDMultiFormatter.m in Sources */,
 				0545F6151DBBBC7600B8C7A8 /* ViewController.swift in Sources */,
 				0545F6131DBBBC7600B8C7A8 /* AppDelegate.swift in Sources */,
 			);
@@ -475,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 36CHZQXF4C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,6 +617,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs.mapper-af";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mapper_af/mapper_af-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "mapper_af/mapper_af-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -492,6 +628,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 36CHZQXF4C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pgs.mapper-af";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mapper_af/mapper_af-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
